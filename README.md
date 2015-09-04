@@ -58,4 +58,100 @@ public class Ex4 {
 		 }
 			 
 
+			 --------------------------------------------------------------
+			 
+			 
+			 package perclass;
+import java.util.Scanner;
+
+
+
+public class Ex1 {
+	 static Scanner sc=new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("Enter the radius: ");
+		
+		
+double radius=sc.nextDouble();
+double area=Math.PI *(radius*radius);
+
+
+System.out.println("the cricle area is:"+area);
+
+double CircleArea=Math.PI*3*radius;
+	}
+	
+
+}
+  
+----------------------------------------------------------------------
+
+package perclass;
+
+import java.util.Scanner;
+public class ex3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		  
+	     double discount=0.1;
+	       int total=0;
+	       
+	       Scanner input = new Scanner(System.in);
+		   System.out.print("Enter value of purchases: ");
+		   total=input.nextInt();
+   total=(int) (total-total*discount);
+   if (total<1000){	
+	   System.out.println("Sorry no discount");
+   }
+   else{
+		
+		 
+		
+		  System.out.println("Value of discounted price: "+total);
+   }
+   }
+}
+
+		  
+		  
+	
+
+
+----------------------------------------------------------------------
+
+package perclass;
+import java.util.Scanner;
+
+public class Ex2 {
+	  Scanner sc=new Scanner(System.in);
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		   int dollars;
+	       int cents;
+	       
+	       String inputNumberString;
+	       
+	       int inputNumber;
+	       int calculatedAnswer;
+		
+		   double dollar= /100;
+	       double cent =  % 100;
+
+	    System.out.println ("The Cents entered equal: $"+ dollars +"."+ cents);
+		
+		
+	}
+
+}
+
+
 			 
